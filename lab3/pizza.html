@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza order website</title>
+</head>
+<body>
+    <h1>Pizza order</h1>
+    <p>hello there</p>
+
+    <img src="https://imgs.search.brave.com/s04msh-JBuFjHUdCf0bQQ4ikcSLmsdJStfYvTYVu3cg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/OTYxNTliOTA0NjYw/NTQyZTNlZmJhODEv/Njk2NTQwMmRkZDA4/N2RkMGJhNzBlN2Mz/X3F1b3RlLWJhY2tn/cm91bmQtaW1hZ2Ul/MjAxLmF2aWY" width="300" alt="image of pizza">
+
+    <ol>
+        <li>First open this website</li>
+        <li>Second, fill out the form</li>
+        <li>Third, enjoy your pizza</li>
+    </ol>
+
+    <form action="#" method="GET">
+        <div>
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="phone">Your phone:</label>
+        <input type="number" id="phone" name="phone" required>
+        </div>
+        <div>
+        <label for="dropdown">Select the size of pizza you want:</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="small">small</option>
+            <option value="medium" selected>medium</option>
+            <option value="large">large</option>
+        </select>
+        </div>
+
+        <div>
+        <p>choose extra toppings</p>
+        <input type="checkbox" id="music1" name="music1">
+        <label for="music1">cheese</label>
+        <input type="checkbox" id="music2" name="music2">
+        <label for="music2">mushrooms</label>
+        <input type="checkbox" id="music3" name="music3">
+        <label for="music3">olives</label>
+        <input type="checkbox" id="music4" name="music4">
+        <label for="music4">corn</label>
+        </div>
+
+
+        <div>
+        <input type="radio" id="a1" name="radio" checked>
+        <label for="a1">Delivery</label>
+        <input type="radio" id="a2" name="radio">
+        <label for="a2">Pick up</label>
+        </div>
+
+        <div>
+        <label for="note">Leave a note to the kitchen</label>
+        <textarea id="note" name="note" cols="40" rows="5"></textarea>
+        </div>
+
+        <button type="submit">Order now</button>
+    </form>
+
+
+</body>
+</html>
