@@ -1,0 +1,49 @@
+nav {
+  border: none;
+  border-bottom: 1px solid red;
+  font-weight: bold;
+  color: orange;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 720px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#cta {
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  border: none;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+#card {
+  background-color: blue;
+  border-radius: 8px;
+  width: 300px;
+  padding: 16px;
+  color: red;
+  text-align: center;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.cta {
+  border-radius: 50%;
+  background-color: orange;
+  color: black;
+  border: none;
+}
